@@ -3,6 +3,9 @@
 I'll walk you through the steps of integrating the Keycloak IDP into a Node.js application. 
 We'll start with setting up Keycloak by importing a pre-existing realm, and then we'll start the Node.js server.
 
+The sample is an [Express.js](https://expressjs.com/) app that uses
+[Passport.js](http://www.passportjs.org/) and the [Passport-OpenIdConnect](https://github.com/jaredhanson/passport-openidconnect) module for managing user authentication.
+
 NodeJS version : v19.9.0
 
 Keycloak version : 21.0.2
@@ -56,3 +59,6 @@ podman run --name keyclock -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
    This will launch your Node.js application and make it accessible via a web browser.
 
 Congratulations! You have now started your Node.js application with Keycloak. Make sure Keycloak is up and running and properly configured for authentication to work as intended. You can further customize your Node.js application based on the specific needs of your project.
+
+
+This repository is a customization of [OneLogin repository](https://github.com/onelogin/onelogin-oidc-node).
