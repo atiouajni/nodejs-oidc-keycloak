@@ -42,7 +42,7 @@ podman run --name keyclock -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
     mv .env.sample .env
     ```
 
-3. Run the following command to install the necessary dependencies:
+4. Run the following command to install the necessary dependencies:
 
    ```
    npm install
@@ -50,7 +50,7 @@ podman run --name keyclock -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
 
    This will install the dependencies specified in `package.json` file.
 
-4. Run the following command to start the Node.js server:
+5. Run the following command to start the Node.js server:
 
    ```
    npm start
@@ -58,7 +58,17 @@ podman run --name keyclock -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
 
    This will launch your Node.js application and make it accessible via a web browser.
 
+6. Open a web browser and navigate to the Node.js application's URL. (localhost:3000)
+
+7. Click on the "Login" button or link to access the login page.
+
+8. Use the pre-configured user credentials to log in. For example:
+
+    Username: user
+
+    Password: user
+
 Congratulations! You have now started your Node.js application with Keycloak. Make sure Keycloak is up and running and properly configured for authentication to work as intended. You can further customize your Node.js application based on the specific needs of your project.
 
 
-This repository is a customization of [OneLogin repository](https://github.com/onelogin/onelogin-oidc-node).
+**NB :** This repository is a customization of [OneLogin repository](https://github.com/onelogin/onelogin-oidc-node).
