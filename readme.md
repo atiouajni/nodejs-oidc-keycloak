@@ -66,7 +66,7 @@ podman run --name keyclock -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
 
     Username: user
 
-    Password: user
+    Password: password
 
 Congratulations! You have now started your Node.js application with Keycloak. Make sure Keycloak is up and running and properly configured for authentication to work as intended. You can further customize your Node.js application based on the specific needs of your project.
 
